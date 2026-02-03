@@ -88,6 +88,45 @@ section h3 {
     margin: 15px 0 10px;
 }
 
+section img {
+    width: 48px;
+    display: block;
+    margin: 10px auto;
+}
+
+section img + h4 {
+    background-color: var(--white);
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+    padding-top: 12px;
+}
+
+section h4 + p {
+    background-color: var(--white);
+    padding: 10px 15px 15px;
+    margin-bottom: 15px;
+    border-radius: 0 0 8px 8px;
+    line-height: 1.4;
+}
+
 #why-choose-us {
     background-color: var(--pink);
+}
+
+.us-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.us-list li {
+    background-color: var(--yellow);
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.us-list li:nth-child(2), .us-list li:nth-child(4) {
+    background-color: var(--white);
 }

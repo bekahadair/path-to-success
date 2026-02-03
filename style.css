@@ -134,3 +134,7 @@ section h3 {
     color: var(--yellow);
     margin: 15px 0 10px;
 }
+
+#why-choose-us {
+    background-color: var(--pink);
+}

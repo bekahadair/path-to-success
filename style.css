@@ -158,17 +158,14 @@ section h4 + p {
     padding: 10px;
     text-align: center;
     border-radius: 6px;
-    color: var(--dark-gray);
 }
 
 .us-list li:nth-child(1) {
     background-color: var(--teal);
-    color: var(--white);
 }
 
 .us-list li:nth-child(2) {
     background-color: var(--lavender);
-    color: var(--white);
 }
 
 .us-list li:nth-child(3) {

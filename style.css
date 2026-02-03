@@ -92,6 +92,8 @@ h4 {
     font-size: 1.15 em;
 }
 
+/* MAIN */
+
 nav {
     background-color: var(--yellow);
     padding: 15px;
@@ -112,4 +114,23 @@ nav {
     padding: 0px;
     border-radius: 4px;
     color: var(--purple);
+}
+
+main {
+    background-color: var(--purple);
+    padding: 20px 0;
+}
+
+section {
+    padding: 15px;
+}
+
+section h2 {
+    color: var(--white);
+    margin-bottom: 10px;
+}
+
+section h3 {
+    color: var(--yellow);
+    margin: 15px 0 10px;
 }

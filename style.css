@@ -34,6 +34,9 @@ body {
 
 header, nav, main {
     width: 100%;
+}
+
+.site-header, nav, main {
     max-width: var(--max-width);
     margin: 0 auto;
 }
@@ -165,14 +168,22 @@ section h4 + p {
 table {
     width: 100%;
     border-collapse: collapse;
-    background-color: var(--yellow);
     margin-bottom: 15px;
+}
+
+tr:first-child {
+    background-color: var(--yellow);
+}
+
+tr:not(:first-child) {
+    background-color: var(--white);
 }
 
 td {
     border: 1px solid var(--purple);
     padding: 6px;
     text-align: center;
+    color: var(--dark-gray);
 }
 
 #take-the-first-step {

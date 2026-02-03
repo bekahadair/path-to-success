@@ -30,13 +30,12 @@ body {
     font-family: var(--font-body);
     background-color: var(--lavender);
     color: var(--dark-gray);
-    display: flex;
-    justify-content: center;
 }
 
 header, nav, main {
     width: 100%;
     max-width: var(--max-width);
+    margin: 0 auto;
 }
 
 h1, h2{

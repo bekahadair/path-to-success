@@ -115,28 +115,41 @@ section {
 }
 
 article.card {
+    display: grid;
+    grid-template-columns: 60px 1fr;
+    column-gap: 12px;
+    align-items: start;
     background-color: var(--white);
     border-radius: 12px;
     padding: 15px;
     margin-bottom: 15px;
-    text-align: center;
+    text-align: left;
 }
 
 article.card img {
-    width: 50px;
+    width: 48px;
     margin-bottom: 10px;
+    margin: 0;
+}
+
+article.card h4 {
+    margin: 0 0 6px;
+}
+
+article.card h4, article.card p {
+    margin-left: 0;
 }
 
 section h2 {
     color: var(--white);
-    margin-bottom: 10px;
+    margin-bottom: 6px;
 }
 
 section h3 {
     color: var(--yellow);
     text-align: left;
     font-size: 1.3rem;
-    margin: 25px 0 15px;
+    margin: 12px 0 8px;
 }
 
 section img {
@@ -162,10 +175,15 @@ section img {
 }
 
 .us-list li {
+    padding: 10px;
     font-weight: 600;
     padding: 15px 10px;
     text-align: center;
-    border-radius: 6px;
+    border-radius: 4px;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .us-list li:nth-child(1) {
@@ -185,8 +203,10 @@ section img {
 }
 
 .price-box {
+    max-width: 280px;
+    margin: 0 auto 20px;
     background-color: var(--white);
-    border-radius: 10px;
+    border-radius: 8px;
     overflow: hidden;
     margin-bottom: 20px;
 }
@@ -207,12 +227,14 @@ tr:not(:first-child) {
 
 td {
     border: none;
-    padding: 6px;
+    padding: 6px 4px;
+    font-size: 0.9rem;
     text-align: center;
     color: var(--dark-gray);
 }
 
 #take-the-first-step {
+    padding: 25px 15px;
     background-color: var(--pink);
     text-align: center;
     color: var(--white);
@@ -233,9 +255,13 @@ td {
 }
 
 #take-the-first-step a:first-of-type {
+    display: inline-block;
+    background-color: var(--white);
+    color: var(--dark-gray);
     font-weight: 700;
-    padding: 12px 26px;
-    border-radius: 30px;
+    padding: 14px 30px;
+    border-radius: 12px;
+    font-weight: 700;
 }
 
 #take-the-first-step a:last-of-type {

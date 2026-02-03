@@ -155,13 +155,21 @@ section h4 + p {
 }
 
 .us-list li {
-    background-color: var(--yellow);
+    background-color: var(--teal);
     padding: 10px;
     text-align: center;
     border-radius: 6px;
 }
 
-.us-list li:nth-child(2), .us-list li:nth-child(4) {
+.us-list li:nth-child(2) {
+    background-color: var(--lavender);
+}
+
+.us-list li:nth-child(3) {
+    background-color: var(--yellow);
+}
+
+.us-list li:nth-child(4) {
     background-color: var(--white);
 }
 

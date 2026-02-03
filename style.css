@@ -117,13 +117,13 @@ section {
 article.card {
     background-color: var(--white);
     border-radius: 12px;
-    align-items: start;
     padding: 15px;
+    margin-bottom: 15px;
     text-align: center;
 }
 
 article.card img {
-    width: 48px;
+    width: 50px;
     margin-bottom: 10px;
 }
 

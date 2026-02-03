@@ -72,6 +72,7 @@ h4 {
     color: var(--white);
     text-align: center;
     padding: 30px 20px 20px;
+    border-radius: 0 0 20px 20px;
 }
 
 .site-tagline {
@@ -105,10 +106,15 @@ nav {
 main {
     background-color: var(--purple);
     padding: 20px 0;
+    border-radius: 0 0 20px 20px;
 }
 
 section {
-    padding: 15px;
+    padding: 20px 15px;
+}
+
+#services {
+    padding-bottom: 30px;
 }
 
 section h2 {
@@ -118,7 +124,8 @@ section h2 {
 
 section h3 {
     color: var(--yellow);
-    margin: 15px 0 10px;
+    text-align: left;
+    margin: 25px 0 15px;
 }
 
 section img {
@@ -146,6 +153,10 @@ section h4 + p {
     background-color: var(--pink);
 }
 
+#why-choose-us h2 {
+    text-align: center;
+}
+
 .us-list {
     list-style: none;
     display: grid;
@@ -155,7 +166,7 @@ section h4 + p {
 }
 
 .us-list li {
-    padding: 10px;
+    padding: 15px 10px;
     text-align: center;
     border-radius: 6px;
 }
@@ -176,6 +187,13 @@ section h4 + p {
     background-color: var(--white);
 }
 
+.price-box {
+    background-color: var(--white);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -191,7 +209,7 @@ tr:not(:first-child) {
 }
 
 td {
-    border: 1px solid var(--purple);
+    border: none;
     padding: 6px;
     text-align: center;
     color: var(--dark-gray);
@@ -215,6 +233,11 @@ td {
     border-radius: 20px;
     text-decoration: none;
     margin: 10px 0;
+}
+
+#take-the-first-step a:first-of-type {
+    padding: 12px 26px;
+    border-radius: 30px;
 }
 
 #take-the-first-step a:last-of-type {

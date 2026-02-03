@@ -20,6 +20,24 @@
 }
 
 /* GLOBAL STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    background-color: var(--lavender);
+    color: var(--dark-gray);
+    display: flex;
+    justify-content: center;
+}
+
+header, nav, main {
+    width: 100%;
+    max-width: var(--max-width);
+}
 
 h1, h2{
     font-family: var(--font-heading);
@@ -46,6 +64,17 @@ h4 {
 }
 
 /* MAIN */
+
+.site-header {
+    background-color: var(--purple);
+    color: var(--white);
+    text-align: center;
+    padding: 30px 20px 20px;
+}
+
+.site-tagline {
+    margin-top: 6px;
+}
 
 nav {
     background-color: var(--yellow);

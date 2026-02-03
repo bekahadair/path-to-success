@@ -130,3 +130,39 @@ section h4 + p {
 .us-list li:nth-child(2), .us-list li:nth-child(4) {
     background-color: var(--white);
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--yellow);
+    margin-bottom: 15px;
+}
+
+td {
+    border: 1px solid var(--purple);
+    padding: 6px;
+    text-align: center;
+}
+
+#take-the-first-step {
+    background-color: var(--pink);
+    text-align: center;
+    color: var(--white);
+}
+
+#take-the-first-step p {
+    margin: 10px 0;
+}
+
+#take-the-first-step a {
+    display: inline-block;
+    background-color: var(--white);
+    color: var(--dark-gray);
+    padding: 10px 18px;
+    border-radius: 20px;
+    margin: 10px 0;
+}
+
+#take-the-first-step a:last-of-type {
+    color: var(--white);
+}

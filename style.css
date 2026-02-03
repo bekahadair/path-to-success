@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 
 /*CSS RESET*/
-@import url('reset.css')
+@import url('reset.css');
 
 /* ROOT VARIABLES */
 :root {
@@ -49,7 +49,7 @@ h1 {
 
 nav h2 {
     font-size: 1.5em;
-    font-family: var(--font-body)
+    font-family: var(--font-body);
 }
 
 h2 {
@@ -143,7 +143,7 @@ section h3 {
 }
 
 section img {
-    width: 48px;
+    width: 50px;
     display: block;
     margin: 10px auto;
 }
@@ -190,14 +190,6 @@ section img {
 
 .us-list li:nth-child(4) {
     background-color: var(--white);
-}
-
-.price-box {
-    max-width: 260px;
-    margin: 10px auto 20px;
-    background-color: var(--white);
-    overflow: hidden;
-    margin-bottom: 20px;
 }
 
 table {

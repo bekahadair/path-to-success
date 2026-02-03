@@ -34,9 +34,6 @@ body {
 
 header, nav, main {
     width: 100%;
-}
-
-.site-header, nav, main {
     max-width: var(--max-width);
     margin: 0 auto;
 }
@@ -67,11 +64,12 @@ h4 {
 
 /* MAIN */
 
-.site-header {
+header {
     background-color: var(--purple);
     color: var(--white);
     text-align: center;
     padding: 30px 20px 20px;
+    border-radius: 0;
 }
 
 .site-tagline {
@@ -116,6 +114,19 @@ section {
     padding-bottom: 30px;
 }
 
+article.card {
+    background-color: var(--white);
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+article.card img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
 section h2 {
     color: var(--white);
     margin-bottom: 10px;
@@ -124,6 +135,7 @@ section h2 {
 section h3 {
     color: var(--yellow);
     text-align: left;
+    font-size: 1.3rem;
     margin: 25px 0 15px;
 }
 
@@ -131,21 +143,6 @@ section img {
     width: 48px;
     display: block;
     margin: 10px auto;
-}
-
-section img + h4 {
-    background-color: var(--white);
-    border-radius: 8px 8px 0 0;
-    text-align: center;
-    padding-top: 12px;
-}
-
-section h4 + p {
-    background-color: var(--white);
-    padding: 10px 15px 15px;
-    margin-bottom: 15px;
-    border-radius: 0 0 8px 8px;
-    line-height: 1.4;
 }
 
 #why-choose-us {
@@ -165,6 +162,7 @@ section h4 + p {
 }
 
 .us-list li {
+    font-weight: 600;
     padding: 15px 10px;
     text-align: center;
     border-radius: 6px;
@@ -235,6 +233,7 @@ td {
 }
 
 #take-the-first-step a:first-of-type {
+    font-weight: 700;
     padding: 12px 26px;
     border-radius: 30px;
 }
